@@ -7,9 +7,8 @@
 * [LiquidBase vs Flyway](https://medium.com/@ruxijitianu/database-version-control-liquibase-versus-flyway-9872d43ee5a4)
 
 
-+------------------------------------+------------------+--------+--+
 |              Feature               |    Liquibase     | Flyway |  |
-+------------------------------------+------------------+--------+--+
+|------------------------------------|------------------|--------|--|
 | Database Source Control/Versioning | yes              | yes    |  |
 | Source Code Control Integrations   | yes              | yes    |  |
 | Baseline generation                | yes              | yes    |  |
@@ -21,4 +20,17 @@
 | Java API for integration           | yes              | yes    |  |
 | Maven,gradle build tools support   | yes              | yes    |  |
 |                                    |                  |        |  |
-+------------------------------------+------------------+--------+--+
+
+
+| Feature                                                                        | Liquibase                              | Flyway  |
+|-----------------------------------------------------------------------------|--------------------------------------|---|
+| Reference to a static method                                                | ContainingClass::staticMethodName    |   |
+| Reference to an instance method of a particular object                      | containingObject::instanceMethodName |   |
+| Reference to an instance method of an arbitrary object of a particular type | ContainingType::methodName           |   |
+| Reference to a constructor                                                  | ClassName::new                       |   |
+|                                                                             |                                      |   |
+|                                                                             |                                      |   |
+|                                                                             |                                      |   |
+|                                                                             |                                      |   |
+|                                                                             |                                      |   |
+|                                                                             |                                      |   |
